@@ -7,7 +7,7 @@
     "test": "test"
   },
   "scripts": {
-    "start":"node app.js",
+    "start":"lite server",
     "dev": "lite-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

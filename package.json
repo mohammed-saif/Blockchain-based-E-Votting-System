@@ -7,9 +7,9 @@
     "test": "test"
   },
   "scripts": {
-    "start":"dev",
+    "start":"npm run test",
     "dev": "lite-server",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "lite-server"
   },
   "dependencies": {
     "@truffle/contract": "^4.3.36",

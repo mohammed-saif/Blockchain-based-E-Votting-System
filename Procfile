@@ -1,1 +1,0 @@
-web:node migrations/1_initial_migration.js

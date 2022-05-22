@@ -16,7 +16,8 @@
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
     </head>
-    <body id="page-top">
+    <body id="page-top" style="background-color:ivory;">
+        
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
             <div class="container">
@@ -43,14 +44,21 @@
 		<br/>
 		<br/>
 		<br/>
-		<p>Name: </p><input type="text" id="name" name="votername"><br><br>
-		<p>E-mail: </p><input type="email" id="email" name="voteremail"><br><br>
-		<p>Identity Number: </p><input type="number" id="passid" name="passid"><br><br>
-		<p>Password: </p><input type="password" id="pass" name="voterpass"><br><br>
-		<p>Confirm Password: </p><input type="password" id="conpass" name="voterpass"><br><br>
-		<button class="btn btn-primary" onclick="App.register(email,passid,pass,conpass)" id="registration"> Register </button>
+        <div class="registration" >
+            <p>Name: </p><input type="text" id="name" name="votername"><br><br>
+		    <p>E-mail: </p><input type="email" id="email" name="voteremail"><br><br>
+		    <p>Identity Number: </p><input type="number" id="passid" name="passid"><br><br>
+		    <p>Password: </p><input type="password" id="pass" name="voterpass"><br><br>
+		    <p>Confirm Password: </p><input type="password" id="conpass" name="voterpass"><br><br>
+		    <button class="btn btn-primary" onclick="App.register(email,passid,pass,conpass)" id="registration"> Register </button>
+            
+        </div>
+		
 
 		<style>
+            .registration{
+                text-align: center;
+            }
 			p,input, button {
 				margin-left: 10px;
 			}
